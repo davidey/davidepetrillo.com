@@ -1,8 +1,9 @@
 @mixin body-font() {
-  font-family: 'Lato';
+  font-family: 'Bree Serif', serif;
 }
 
 @mixin heading-font() {
-  font-weight: 700;
-  font-family: 'Montserrat';
+  font-weight: 500;
+  font-family: 'Bree Serif', serif;
+  color: #306FB2;
 }

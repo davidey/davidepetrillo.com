@@ -1,4 +1,9 @@
 // Bootstrap overrides for this template
+body {
+  color: #616161;
+  @include body-font;
+}
+
 a {
   color: $primary;
   &:focus,
@@ -8,12 +13,16 @@ a {
   }
 }
 
+p {
+  font-size: 3.5em;
+}
+
 .btn {
   border-width: 2px;
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $white !important;
 }
 
 .bg-secondary {
@@ -47,5 +56,11 @@ a {
   &:active {
     background-color: darken($secondary, 10%);
     border-color: darken($secondary, 10%);
+  }
+}
+
+#about, #contact {
+  p {
+    text-align: center;
   }
 }
